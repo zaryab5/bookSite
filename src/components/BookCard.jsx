@@ -52,9 +52,9 @@ const BookCard = ({Books ,headline}) => {
 
                          <img className='hover:scale-105 transition-transform ease-in duration-150' src={book.imageUrl} alt="" />
                         </div>
-                         <div className=' bg-blue-600 hover:bg-black p-2 rounded absolute top-3 right-3'>
+                         {/* <div className=' bg-blue-600 hover:bg-black p-2 rounded absolute top-3 right-3'>
                             <FaCartShopping className=' w-4 h4 text-white'/>
-                         </div>
+                         </div> */}
                     </div>
                     <div>
                         <div>

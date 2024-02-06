@@ -19,12 +19,12 @@ function MyFooter() {
             </Footer.LinkGroup>
           </div>
           <div>
-            <Footer.Title title="help center" />
+            <Footer.Title title="Links" />
             <Footer.LinkGroup col>
-              <Footer.Link href="#">Discord Server</Footer.Link>
-              <Footer.Link href="#">Twitter</Footer.Link>
-              <Footer.Link href="#">Facebook</Footer.Link>
-              <Footer.Link href="#">Contact Us</Footer.Link>
+              <Footer.Link href="/contact">Contact</Footer.Link>
+              <Footer.Link href="/about">About</Footer.Link>
+              <Footer.Link href="/shop">Library</Footer.Link>
+ 
             </Footer.LinkGroup>
           </div>
           <div>
