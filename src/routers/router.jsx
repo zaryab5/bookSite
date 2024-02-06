@@ -109,8 +109,8 @@ const api=import.meta.env.VITE_BASE_URL;
       element:<Login/>
     },{
       path:"/register",
-      // element:(<RequireAuth fallbackPath="/login"><Register/></RequireAuth>)
-      element:<Register/>
+      element:(<RequireAuth fallbackPath="/login"><Register/></RequireAuth>)
+      // element:<Register/>
     
     },{
       path:"/table",
